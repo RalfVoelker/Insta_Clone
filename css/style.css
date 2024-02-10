@@ -1,0 +1,487 @@
+body{
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    background-color: rgba(0, 0, 0, 0.05); 
+    max-width: 1920px;
+}
+
+
+.main{
+    display: flex;
+    justify-content: start;  
+}
+
+
+/* +++++++ custom scrollbar +++++ */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+
+  ::-webkit-scrollbar-thumb {
+    background:rgb(30, 127, 124);
+    border-radius: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background:rgb(30, 93, 127);
+  }
+  /* +++++++ custom scrollbar end +++++ */
+
+
+/* ################Links################ */
+
+.nav-vertikal{
+     
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-right: 1px solid grey;
+    width: 250px;
+    position: fixed;
+    background-color: rgb(242, 242, 242);
+    height: 100vh;
+    overflow: auto; 
+}
+
+
+.insta{
+    margin-top: 16px;
+    margin-left: 32px;
+}
+
+
+.insta img{
+    width: 120px;
+}
+
+
+.a{
+    margin-bottom: 16px;
+}
+
+
+.icon{
+    margin-left: 16px;
+    padding-right: 16px;
+}
+
+
+.icon2{
+    width: 24px;
+    margin-left: 16px;
+    padding-right: 16px;
+}
+
+
+.mehr{
+    margin-top: 32px;
+}
+
+
+a{
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+
+.nav-gruppe{
+    
+    height: 500px;
+    display: flex;
+    padding-top: 32px;
+    flex-direction: column;
+    justify-content:start ;
+}
+
+
+/* ################Mitte################ */
+
+.contentMitte{
+    margin-top: 32px;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+h3{
+    margin-left: 64px;
+    margin-right: 32px;
+    padding-bottom: 16px;
+}
+
+
+.h3{
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+}
+
+
+.h3 span{
+    color: gray;
+}
+
+
+.contentPic{
+    width: 500px;
+    border: solid 1px grey;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-box-shadow: 3px 2px 15px -1px rgba(0,0,0,0.5); 
+    box-shadow: 3px 2px 15px -1px rgba(0,0,0,0.5);  
+}
+
+
+.contentPic2{
+    margin-right: 8px;
+    width: 750px;
+    border: solid 1px grey;
+    border-radius: 5px;
+}
+
+.comment{
+padding-top: 16px;
+}
+
+
+.card{
+    border-bottom: 1px solid gray;
+    margin-top: 32px;
+    margin-bottom: 88px;
+    margin-left: 64px;
+    margin-right: 32px;
+    padding-left: 64px ;
+    padding-bottom: 16px;
+}
+
+
+.headerCard{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.headerCard img{
+    cursor: pointer;
+}
+
+
+.footerCard{
+    display: flex;
+}
+
+
+.footerCard img{
+    cursor: pointer;
+}
+
+
+.memberPicSmall{
+    object-fit:  fill;
+    height: 35px;
+    width: 35px;
+    margin-right: 8px;
+    margin-left: 12px;
+    border-radius: 50%;
+}
+
+
+.name, .time, .verifi {
+margin-right: 12px;
+}
+
+
+.icon1{
+margin-left: 295px;
+}
+
+
+.name{
+    font-weight: bold;
+}
+
+
+.input{
+    background-color: rgb(242, 242, 242);
+    border: none;
+    border-radius: 3px;
+    width: 400px;
+    height: 28px;
+    margin-top: 8px;
+}
+
+
+.btn{
+    background-color: rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 3px;
+    width: 80px;
+    height: 28px; 
+    /* color: blue; */
+    cursor: pointer;
+}
+
+
+/* ################Rechts################ */
+
+.contentRight{
+    margin-right: 16px;
+    padding-right: 16px;
+    /* width: 550px; */
+    float: right;
+}
+
+
+.memberPic{
+    object-fit:  fill;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+.member{
+    margin: 16px;
+    margin-right: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mem{
+    display: flex;
+    padding-right: 20px;
+}
+
+
+ .member p , h4{
+    margin: 8px;
+    cursor: pointer;
+ }
+
+
+ .btn-rechts{
+    color: rgb(59,174,248);
+    font-weight:  600;
+ }
+
+
+/* ################Unten################ */
+
+ .nav-gruppe-horizontal{
+    position: fixed;
+    bottom: 0;
+    display: none;
+    justify-content:space-evenly ;
+    width: 100%;
+    padding-top: 32px;
+    background-color:rgb(242, 242, 242);
+    border-top: solid 1px gray;
+}
+
+
+.nav-horizontal{
+    position: fixed;
+    bottom: 0; 
+}
+
+
+/* ################Oben################ */
+
+.header-horizontal{
+    display: none;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 16px;
+    background-color:rgb(242, 242, 242);
+    
+}
+
+
+.header-horizontal img{
+    width: 120px;
+}
+
+
+/* ################OperComment################ */
+
+.d-block{
+    display: block !important;
+} 
+
+
+.d-none{
+    display: none!important;
+} 
+
+
+#openComment {
+    background-color: rgba(0, 0, 0, 0.7     );
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    display: none;
+    backdrop-filter: blur(6px);
+    padding-top: 20px;
+}
+
+
+.closeBTN {
+    background-color: transparent;
+    border: none;
+}
+
+
+.closeBTN img{
+    height: 42px;
+    width: 42px;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+.commentContainer{
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:rgb(242, 242, 242) ;
+    display: flex;
+}
+
+
+.openComment{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.showX {
+    display: block !important;
+    z-index: 1001;
+}
+
+
+.hideX {
+    display: none !important;
+}
+
+
+ @media screen and (max-width: 1000px) {
+    .contentRight {
+      display: none;
+    }
+    .input{
+        
+        width: 300px;
+       
+        margin-top: 8px;
+    }
+    .commentContainer{
+        flex-direction: column;
+    }
+
+    .contentMittel {
+        padding-right: 16px;
+      }
+
+    .card{
+        padding-right: 32px;
+        padding-left: 32px ;
+    }
+
+    .openComment{
+        padding: 16px;
+    }
+  }
+
+
+  @media screen and (max-width: 700px) {
+    .nav-vertikal {
+      font-size: 15px;
+    }
+
+    .contentMitte{
+        left: 200px;
+    }
+
+    .commentContainer{
+        flex-direction: column;
+    }
+
+    .openComment{
+        margin: 16px;
+    }
+
+    .btn{
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+    .input{
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .nav-vertikal {
+      display: none;
+    }
+
+    .card{
+        padding-right: 16px;
+        padding-left: 16px ;
+    }
+    
+    .nav-gruppe-horizontal{
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content:space-evenly ;
+        width: 100%;
+        padding-top: 32px; 
+    }
+
+    .header-horizontal{
+        display: flex;
+    }
+
+    .contentPic2{
+        width: 100%;
+    }
+
+    .contentMitte{
+        margin-left: -32px;
+    }
+    
+    .commentContainer{
+        flex-direction: column;
+        margin: 16px;
+    }
+  }
